@@ -29,4 +29,3 @@ Funcionalidade: Tela de cadastro
             | "karol@eba.com.br"  | "4587595@#" | "Usuário ou senha inválidos"  |
             | "João@ebac.com.br"  | "4587595@#" | "Olá João!"     |
             | "Denis@ewww.com.br" | "4587595@#" | "Usuário ou senha inválidos"  |
-

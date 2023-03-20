@@ -21,3 +21,4 @@ Funcionalidade: validar Login na plataforma
             E inserir <e-mail> e <senha> validos direcionar para o checkout
             Quando eu insiro dados invalidos <email> e <senha>
             Então Exibir uma mensagem de alerta "Usuário ou senha inválidos "
+
