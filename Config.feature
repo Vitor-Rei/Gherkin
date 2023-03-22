@@ -10,9 +10,17 @@ Funcionalidade: Configurar produtos na Ebac-Shop
             Dado que eu acesse a página para configurar meu produto
 
             Cenário: Configurar meu produto
-            Quando eu escolher a cor, tamanho e quantidade 
-            Então adicionar no carrinho 
+            Quando eu escolher a <cor>, <tamanho> e <quantidade>
+            E clicar no botão inserir no carinho 
+            Então deve aparecer "adicionado com sucesso"
+
+            Exemplo:
+
+            | Cor |Tamanho| Quantidade|       Mensagem       |
+            |Azul |M      |    2      |Adicionado com sucesso|
+            |Rosa |M      |    4      |Adicionado com sucesso|
             
+
             Cenário: Validar limite de produtos 
             Quando eu inserir 15 produtos no carrinho 
             Então o sistema exibirá a mensagem de erro: "limite de produtos excedido"
