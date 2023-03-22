@@ -6,19 +6,19 @@ Funcionalidade: Configurar produtos na Ebac-Shop
             Escolher a quantidade
             e inserir no carrinho
 
+            Contexto:
+            Dado que eu acesse a página para configurar meu produto
+
+            Cenário: Configurar meu produto
+            Quando eu escolher a cor, tamanho e quantidade 
+            Então adicionar no carrinho 
+            
             Cenário: Validar limite de produtos 
-            Dado eu escolha a cor, tamanho do produto 
             Quando eu inserir 15 produtos no carrinho 
-            Então o sistema exibe a mensagem: "limite de produtos excedido"
+            Então o sistema exibirá a mensagem de erro: "limite de produtos excedido"
+            
+            Cenário: Escolha produto 
+            Quando eu clicar no botão <limpar>
+            Então retornar para a escolha do produto novamente 
 
-Funcionalidade: validar Login na plataforma 
-            Como cliente da EBAC-SHOP
-            Quero fazer o login (autenticação) na plataforma  
-            Para visualizar meus pedidos
-  
-            Cenário: Autenticação de dados 
-            Dado Quando eu preencher os campos obrigatórios
-            E inserir <e-mail> e <senha> validos direcionar para o checkout
-            Quando eu insiro dados invalidos <email> e <senha>
-            Então Exibir uma mensagem de alerta "Usuário ou senha inválidos "
-
+           

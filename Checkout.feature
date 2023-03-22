@@ -17,7 +17,7 @@ Funcionalidade: Tela de cadastro
             Quando não preencher os campos obrigatórios
             Então deve exibir mensagem de alerta "preencher campos com asteristicos"
             
-            Esquema do Cenário: concluir Cadastro
+            Esquema do Cenário: Concluir Cadastro
             Dado que eu acesse a tela de cadastro
             Quando eu digitar <e-mail> ou <senha> com formato inválido
             E clicar no botão entrar

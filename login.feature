@@ -16,7 +16,7 @@
             Cenário: Usuário com e-mail inválido
             Quando eu digitar o usuário "karol@12ebac.com.br"
             E a "4587595@#"
-            Então deve exibir a mesnsagem de alerta: "Usuário ou senha inválidos"
+            Então deve exibir a mensagem de alerta: "Usuário ou senha inválidos"
 
             Exemplos:
 
